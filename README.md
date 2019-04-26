@@ -4,6 +4,7 @@ RecyclerView瀑布流，服务器返回图片带尺寸以及不带尺寸处理�
 [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 <img src="image/image_001.png" />
+<img src="image/image_002.png" />
 
 ## LICENSE
 ```

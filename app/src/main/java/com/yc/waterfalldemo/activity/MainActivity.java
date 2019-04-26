@@ -19,18 +19,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initView() {
         findViewById(R.id.tv_001).setOnClickListener(this);
         findViewById(R.id.tv_002).setOnClickListener(this);
+        findViewById(R.id.tv_003).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.tv_001:
-                Intent intent = new Intent(this, WaterfallActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(this, WaterfallActivity.class);
+                startActivity(intent1);
                 break;
             case R.id.tv_002:
-                Intent intent1 = new Intent(this, WaterfallImageActivity.class);
-                startActivity(intent1);
+                Intent intent2 = new Intent(this, WaterfallImageActivity.class);
+                startActivity(intent2);
+                break;
+            case R.id.tv_003:
+                Intent intent3 = new Intent(this, LoadMoreWaterfallActivity.class);
+                startActivity(intent3);
                 break;
         }
     }

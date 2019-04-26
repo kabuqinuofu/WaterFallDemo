@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.WaterfallImageActivity" />
+        <activity android:name=".activity.LoadMoreWaterfallActivity" />
     </application>
 
 </manifest>
